@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="lego.css">
+</head>
+
+<body>
+    <div id="form">
+        <fieldset id="creator">
+            <label for="lego__creator">Creator:</label>
+            <input id="lego__creator" name="lego__creator" type="text" autofocus />
+        </fieldset>
+        <fieldset id="creation">
+            <label for="lego__creation">Name of creation:</label>
+            <input id="lego__creation" name="lego__creation" type="text" autofocus />
+        </fieldset>
+        <fieldset id="shape">
+            <label for="lego__shape">Shape of creation:</label>
+            <input id="lego__shape" name="lego__shape" type="text" autofocus />
+        </fieldset>
+        <fieldset id="color">
+            <select id="lego__color">
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+                <option value="Yellow">Yelow</option>
+                <option value="Blue">Blue</option>
+                <option value="Orange">Orange</option>
+                <option value="Black">Black</option>
+            </select>
+        </fieldset>
+        <button class="save__button">Save Lego Creation</button>
+        <button class="load__button">Load Lego Creation</button>
+    </div>
+
+    <article id="lego__container">
+    </article>
+    <script src="lego.js"></script>
+</body>
+
+</html>
